@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    vendor/samsung/exynos9810-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
@@ -123,6 +124,7 @@ PRODUCT_PACKAGES += \
     libSEF.quram \
     lib_SoundAlive_3DPosition_ver202 \
     lib_SoundAlive_AlbumArt_ver105 \
+    libsecaudiocoreutils \
     libacryl \
     libacryl_plugin_slsi_hdr10 \
     libbauthserver \
@@ -141,6 +143,7 @@ PRODUCT_PACKAGES += \
     libhwjpeg \
     libion_exynos \
     libiva_android_hal \
+    libprofileparamstorage \
     libqfp_sensortest \
     libsecaudioinfo \
     libsecnativefeature \
@@ -153,6 +156,7 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libvkmanager_vendor \
     libvxu \
+    libswdap \
     libOMX.Exynos.AVC.Decoder \
     libOMX.Exynos.AVC.WFD.Encoder \
     libOMX.Exynos.HEVC.Decoder \
