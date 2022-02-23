@@ -209,6 +209,7 @@ PRODUCT_PACKAGES += \
     libril_sem \
     libsec-ril \
     libskeymaster3device \
+    thermal.exynos9810 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.bridge@2.1 \
