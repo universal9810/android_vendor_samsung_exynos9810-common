@@ -147,7 +147,6 @@ PRODUCT_PACKAGES += \
     libion_exynos \
     libiva_android_hal \
     libqfp_sensortest \
-    libsecaudiocoreutils \
     libsecaudioinfo \
     libsecnativefeature \
     libsecril-client.exynos9810 \
@@ -172,12 +171,6 @@ PRODUCT_PACKAGES += \
     sensors.bio \
     sensors.grip \
     libaudioeffectoffload \
-    libaudiosaplus_sec \
-    libgearvr \
-    libmysound \
-    libmyspace \
-    libplaybackrecorder \
-    vendor.samsung.hardware.audio@1.0 \
     audio.primary.exynos9810 \
     libSamsungPostProcessConvertor \
     lib_SamsungRec_06006 \
