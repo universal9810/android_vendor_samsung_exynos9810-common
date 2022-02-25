@@ -133,6 +133,7 @@ PRODUCT_PACKAGES += \
     libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
+    libbt-vendor.exynos9810 \
     libcsc \
     libegis_fp_normal_sensor_test \
     libexynosdisplay \
