@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     libegis_fp_normal_sensor_test \
     libexynosdisplay \
     libexynosgscaler \
+    libexynosgraphicbuffer \
     libexynosscaler \
     libexynosutils \
     libexynosv4l2 \
