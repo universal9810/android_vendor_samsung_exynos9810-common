@@ -2060,14 +2060,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.samsung.hardware.security.widevine.keyprovisioning@1.0",
+	name: "vendor.samsung.hardware.security.widevine.keyprov@1.0",
 	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so"],
+			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -2118,9 +2118,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.drm@1.2-service.widevine",
+	name: "android.hardware.drm@1.4-service.widevine",
 	owner: "samsung",
-	srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine"],
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine"],
 	check_elf_files: false,
 	strip: {
 		none: true,
@@ -2208,9 +2208,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service",
+	name: "vendor.samsung.hardware.security.widevine.keyprov@1.0-service",
 	owner: "samsung",
-	srcs: ["proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service"],
+	srcs: ["proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprov@1.0-service"],
 	check_elf_files: false,
 	strip: {
 		none: true,
