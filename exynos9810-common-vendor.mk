@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libvkmanager_vendor \
     libvxu \
+    libwvdrmengine \
     libwvhidl \
     liboemcrypto \
     libOMX.Exynos.AVC.Decoder \
