@@ -165,8 +165,8 @@ PRODUCT_PACKAGES += \
     libOMX.Exynos.VP9.Decoder \
     libOMX.Exynos.VP9.Encoder \
     libOMX.Exynos.WMV.Decoder \
-    sensors.bio \
     sensors.grip \
+    sensors.sensorhub \
     libaudioeffectoffload \
     audio.primary.exynos9810 \
     libSamsungPostProcessConvertor \
