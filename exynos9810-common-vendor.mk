@@ -151,6 +151,7 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libvkmanager_vendor \
     libvxu \
+    libwrappergps \
     libwvdrmengine \
     libwvhidl \
     liboemcrypto \
