@@ -117,7 +117,6 @@ PRODUCT_PACKAGES += \
     libIDDQD_interface \
     libMcClient \
     libOpenCv.camera.samsung \
-    libRSDriverArm \
     libSEF.quram \
     lib_SoundAlive_3DPosition_ver202 \
     lib_SoundAlive_AlbumArt_ver105 \
